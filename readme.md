@@ -1,5 +1,5 @@
 
-# csvtoarray
+# csvinarray
 
 An NPM package which can be used to read and convert CSV files to JSON in javaScript.
 
@@ -7,31 +7,31 @@ An NPM package which can be used to read and convert CSV files to JSON in javaSc
 
 ## Installation 
 
-Install `csvtoarray` with npm
+Install `csvinarray` with npm
 
 ```bash 
- $ npm install csvtoarray
+ $ npm install csvinarray
 ```
 
 
 ## Usage/Examples
 
 ```javascript
-const convert = require('csvtoarray');
-let jsonData = csvtoarray(__dirname + "/sample/example-csv.csv");
+const convert = require('csvinarray');
+let jsonData = csvinarray(__dirname + "/sample/example-csv.csv");
 // Data in json from the csv file.
 ```
 
 ## Simple syntax for converting your file
 
-It is just one line in order to convert your CSV file to JSON/
+It is just one line in order to convert your CSV file to JSON.
 
 ### The Basic Function
 
 There is just one function, Which can be used as this.
 
 ```javaScript
-let jsonData = csvtoarray(__dirname + "/sample/example-csv.csv");
+let jsonData = csvinarray(__dirname + "/sample/example-csv.csv");
 //                            ^ very important | pwd + Path
 // *pwd = present working directory
 ```
