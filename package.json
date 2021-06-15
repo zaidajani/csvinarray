@@ -1,6 +1,6 @@
 {
-  "name": "csvtoarray",
-  "version": "1.0.0",
+  "name": "csvinarray",
+  "version": "1.0.1",
   "description": "A module which reads and converts simple CSV files to JSON.",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,12 @@
     "convert",
     "easy",
     "csvtoarray",
+    "csvinarray",
     "json array",
     "JSON",
-    "zaidajani"
+    "zaidajani",
+    "csv",
+    "convert"
   ],
   "bugs": {
     "url": "https://github.com/zaidajani/csvtoarray/issues"
