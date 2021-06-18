@@ -1,4 +1,3 @@
-
 # csvinarray
 
 An NPM package which can be used to read and convert CSV files to JSON in javaScript.
